@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="description" content="Seite im Aufbau – SF Räum & Entsorgungsservice UG (haftungsbeschränkt)." />
+  <title>Seite im Aufbau – SF Räum & Entsorgungsservice</title>
+
+  <style>
+    :root{
+      --bg:#f6f7f9;
+      --card:#ffffff;
+      --ink:#0f172a;
+      --muted:#475569;
+      --line:#d7dde4;
+      --accent:#111827;   /* neutral/dunkel */
+      --radius:16px;
+      --shadow: 0 18px 55px rgba(15,23,42,.10);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      background: var(--bg);
+      color: var(--ink);
+      min-height:100svh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+    }
+    .card{
+      width:min(820px, 100%);
+      background: var(--card);
+      border:1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+    }
+    .bar{
+      height:10px;
+      background: linear-gradient(90deg, #111827, #374151, #111827);
+    }
+    header{
+      padding:22px 22px 14px;
+      border-bottom:1px solid var(--line);
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap:16px;
+      flex-wrap:wrap;
+    }
+    .brand{
+      display:flex;
+      gap:12px;
+      align-items:center;
+    }
+    .logo{
+      width:44px; height:44px;
+      border-radius: 12px;
+      background: var(--accent);
+      color:#fff;
+      display:grid;
+      place-items:center;
+      font-weight:900;
+      letter-spacing:.06em;
+      flex:0 0 auto;
+    }
+    .brand h1{
+      margin:0;
+      font-size:14px;
+      line-height:1.25;
+      font-weight:800;
+    }
+    .tag{
+      font-size:12px;
+      color: var(--muted);
+      border:1px solid var(--line);
+      padding:8px 10px;
+      border-radius:999px;
+      background:#fff;
+      white-space:nowrap;
+    }
+    main{
+      padding:22px;
+      display:grid;
+      gap:12px;
+    }
+    h2{
+      margin:0;
+      font-size:40px;
+      line-height:1.05;
+      letter-spacing:-.02em;
+    }
+    p{
+      margin:0;
+      color: var(--muted);
+      font-size:16px;
+      line-height:1.65;
+      max-width:70ch;
+    }
+    .notice{
+      margin-top:6px;
+      padding:12px 14px;
+      border:1px solid var(--line);
+      border-radius: 14px;
+      background: #fbfcfe;
+      color: var(--muted);
+      font-size:13px;
+      line-height:1.55;
+    }
+    .cta{
+      margin-top:10px;
+      display:flex;
+      gap:12px;
+      align-items:center;
+      flex-wrap:wrap;
+    }
+    a.btn{
+      text-decoration:none;
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      padding:12px 14px;
+      border-radius: 12px;
+      font-weight:800;
+      border:1px solid rgba(17,24,39,.14);
+      background:#111827;
+      color:#fff;
+      transition: transform .08s ease, opacity .15s ease;
+    }
+    a.btn:active{transform: translateY(1px)}
+    .small{
+      font-size:12px;
+      color: var(--muted);
+      line-height:1.4;
+      max-width:72ch;
+    }
+    footer{
+      padding:14px 22px;
+      border-top:1px solid var(--line);
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+      color: var(--muted);
+      font-size:12px;
+    }
+    footer a{color: var(--ink)}
+  </style>
+</head>
+
+<body>
+  <section class="card" role="region" aria-label="Seite im Aufbau">
+    <div class="bar"></div>
+
+    <header>
+      <div class="brand">
+        <div class="logo">SF</div>
+        <div>
+          <h1>SF Räum &amp; Entsorgungsservice UG (haftungsbeschränkt)</h1>
+        </div>
+      </div>
+      <div class="tag">Seite im Aufbau</div>
+    </header>
+
+    <main>
+      <h2>Seite im Aufbau</h2>
+
+      <p>
+        Diese Website befindet sich derzeit im Aufbau.
+        Kontakt ist aktuell ausschließlich per E-Mail möglich.
+      </p>
+
+      <div class="notice">
+        Hinweis: Die Gründung ist noch nicht abgeschlossen. Es erfolgt derzeit keine Veröffentlichung weiterer Inhalte.
+      </div>
+
+      <div class="cta">
+        <!-- TODO: E-Mail-Adresse anpassen -->
+        <a class="btn"
+           href="mailto:info@fs-entsorgungsservice.de?subject=Kontakt%20-%20SF%20R%C3%A4um%20%26%20Entsorgungsservice&body=Hallo%2C%0D%0A%0D%0AIch%20m%C3%B6chte%20Kontakt%20aufnehmen.%0D%0A%0D%0AName%3A%20%0D%0ANachricht%3A%20">
+          E-Mail senden
+        </a>
+
+        <div class="small">
+          Telefon/WhatsApp/Online-Formular sind derzeit nicht aktiv.
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div>© <span id="year"></span> SF Räum &amp; Entsorgungsservice UG (haftungsbeschränkt)</div>
+    </footer>
+  </section>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
